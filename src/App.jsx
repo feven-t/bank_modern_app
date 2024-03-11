@@ -3,10 +3,10 @@ import { Billing, Business, CardDeal, Clients,CTA, Footer, Navbar, Stats, Testim
 
 const App = () => {
   return (
-    <div className='bg-primary text-blue-600'>
+    <div className='bg-primary'>
       <div className={`${styles.paddingX} ${styles.flexCenter}`}>
         <div className={`${styles.boxWidth}`}>
-          Navbar
+          <Navbar/>
         </div>
       </div>
 
